@@ -1,0 +1,35 @@
+.campaign {
+  margin-top: 90px;
+  margin-left: 90px;
+  padding: 40px 50px;
+  width: fit-content;
+
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.info_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 0px 0px;
+}
+
+.campaign_info > div {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.campaign_info > h1 {
+  margin: 0;
+}
+
+.new_campaign_button {
+  background-color: #0f6eff;
+  color: white;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}

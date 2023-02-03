@@ -1,0 +1,23 @@
+.product {
+  display: flex;
+  gap: 10px;
+}
+
+.product_img {
+  width: 40px;
+  height: 40px;
+}
+
+.product_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product_name {
+  font-weight: 500;
+}
+
+.product_creation_date {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+}

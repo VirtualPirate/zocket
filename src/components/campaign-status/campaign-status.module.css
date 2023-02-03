@@ -1,0 +1,23 @@
+.status {
+  border-radius: 100px;
+  padding: 5px 10px;
+  font-size: 13px;
+  width: 70%;
+  text-align: center;
+  font-weight: 500;
+}
+
+.live {
+  color: #317c2e;
+  background-color: #e1ffe0;
+}
+
+.pause {
+  color: #d1a307;
+  background-color: #fff8e0;
+}
+
+.exhaust {
+  color: #fc3f3f;
+  background-color: #ffdede;
+}

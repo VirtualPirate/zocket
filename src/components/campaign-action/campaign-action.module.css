@@ -1,0 +1,9 @@
+.actionIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

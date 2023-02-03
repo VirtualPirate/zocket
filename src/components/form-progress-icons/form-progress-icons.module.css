@@ -1,0 +1,17 @@
+.svg_color {
+  fill: #abb5c2;
+  transition: 1s;
+}
+
+.svg {
+  width: 35px;
+  height: 35px;
+}
+
+.true {
+  fill: white;
+}
+
+.false {
+  fill: #abb5c2;
+}

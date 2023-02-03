@@ -1,0 +1,44 @@
+.top_section {
+  position: absolute;
+  z-index: 0;
+
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 90px;
+  background-color: white;
+  border-bottom: 1px solid #dae6ff;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+
+  padding: 0 30px;
+}
+
+.plan_info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.plan_info > span {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.buy_button {
+  background-color: rgba(242, 154, 46, 0.1);
+  padding: 10px;
+
+  display: flex;
+  gap: 10px;
+
+  color: #ff8c00;
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
