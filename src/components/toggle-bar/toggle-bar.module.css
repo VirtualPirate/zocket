@@ -13,6 +13,8 @@
   border-radius: 100px;
 
   transition: transform 500ms;
+
+  position: relative;
 }
 
 .bar_state_true {
@@ -37,6 +39,17 @@
 
 .bar_state_false + .bar_state {
   color: white;
+}
+
+.bar_state::before {
+  position: absolute;
+  content: "";
+
+  width: 5px;
+  height: 2px;
+  background-color: blue;
+  top: 50%;
+  left: 50%;
 }
 
 @media (max-width: 600px) {

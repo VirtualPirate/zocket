@@ -10,7 +10,11 @@ export default function CampaignList() {
   return (
     <div className={styles.list_box}>
       <form className={styles.form}>
-        <input type="text" className={styles.search_bar} />
+        <input
+          type="text"
+          className={styles.search_bar}
+          placeholder="Search for the campaign"
+        />
 
         <label className={styles.dropdown_label}> Platform: </label>
         <select name="platform" className={styles.dropdown}>
