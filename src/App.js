@@ -5,7 +5,7 @@ import SideMenu from "./components/side-menu/side-menu.component";
 import TopSection from "./components/top-section/top-section.component";
 import Campaign from "./components/campaign/campaign.component";
 
-import FormStep1 from "./routes/form-step-1/form-step-1.component";
+import Form from "./routes/form/form.component";
 
 function App() {
   return (
@@ -14,13 +14,11 @@ function App() {
       <TopSection />
 
       <Routes>
-        <Route>
-          <Route index element={<Campaign />} />
-          <Route path="step1" element={<FormStep1 />} />
-          <Route path="step2" element={<>step2</>} />
-          <Route path="step3" element={<>step3</>} />
-          <Route path="step3" element={<>step4</>} />
-        </Route>
+        <Route index element={<Campaign />} />
+        <Route path="/form/*" element={<Form />} />
+        {/* <Route path="step2" element={<>step2</>} />
+        <Route path="step3" element={<>step3</>} />
+        <Route path="step3" element={<>step4</>} /> */}
       </Routes>
     </>
   );

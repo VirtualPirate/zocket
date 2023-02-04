@@ -1,0 +1,19 @@
+.form {
+  margin-top: 90px;
+  margin-left: 90px;
+  padding: 40px 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  width: fit-content;
+}
+
+.campaign_info > div {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.campaign_info > h1 {
+  margin: 0;
+}

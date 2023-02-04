@@ -10,6 +10,12 @@
   font-weight: 500;
 }
 
+@font-face {
+  font-family: "Eudoxus Sans";
+  src: url("./fonts/Eudoxus-Sans-font/EudoxusSans-ExtraBold.ttf");
+  font-weight: 700;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -36,4 +42,8 @@ button {
 
 a {
   all: unset;
+}
+
+input[type="date"] {
+  padding: 10px 30px;
 }

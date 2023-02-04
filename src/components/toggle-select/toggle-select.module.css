@@ -1,0 +1,32 @@
+.toggle_select {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  width: fit-content;
+
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle_select span {
+  padding: 10px 40px;
+  /* border: 1px solid black; */
+  background-color: #f0f0f0;
+  color: #999999;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.first {
+  transform: translateX(10%);
+}
+
+.second {
+  transform: translateX(-10%);
+}
+
+.active {
+  background-color: #0f6eff !important;
+  color: white !important;
+  z-index: 1;
+}

@@ -14,7 +14,7 @@ export default function Campaign() {
           <div>Check the list of campaigns you created</div>
         </div>
 
-        <Link className="nav-link" to="/step1">
+        <Link className="nav-link" to="/form">
           <button className={styles.new_campaign_button}>
             <img
               src={AddCircleLogo}
