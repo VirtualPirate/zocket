@@ -32,8 +32,8 @@ export default function Form3() {
               <div className={styles.date_range}>
                 <span className={styles.sub_title}>Start date</span>
                 <span className={styles.sub_title}>End date</span>
-                <input type="date" />
-                <input type="date" />
+                <input className={styles.date_input} type="date" />
+                <input className={styles.date_input} type="date" />
               </div>
               <div className={styles.budget_range}>
                 <div className={styles.sub_title}>Enter Campaign Budget</div>
@@ -45,6 +45,24 @@ export default function Form3() {
             <div className={styles.form_title}>
               <span className={styles.form_index}>2</span>
               <span className={styles.form_value}> Location Info</span>
+            </div>
+            <div className={styles.budget_date_fields}>
+              <div className={styles.budget_timeline}>
+                <div className={styles.sub_title}>Budget Timeline</div>
+                <ToggleSelect first="location" second="radius" />
+              </div>
+              <div className={styles.budget_timeline}>
+                <div className={styles.sub_title}>Select location</div>
+                <input
+                  className={styles.location_input}
+                  type="text"
+                  placeholder="Select a place, name, address or coordinates"
+                />
+              </div>
+              <div className={styles.budget_range}>
+                <div className={styles.sub_title}>Select target radius</div>
+                <input className={styles.budget_range_input} type="range" />
+              </div>
             </div>
           </div>
         </div>

@@ -29,9 +29,6 @@
   gap: 30px;
 }
 
-.budget_date {
-}
-
 .form_index {
   padding: 5px 10px;
   background-color: #0f6eff;
@@ -79,9 +76,26 @@
 .budget_range {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 
 .budget_range_input {
   width: 700px;
+  border: 1.5px solid #e9e9e9;
+}
+
+.date_input {
+  border: 1.5px solid #e9e9e9;
+  border-radius: 10px;
+}
+.location_input {
+  padding: 10px 10px;
+  border: 1.5px solid #e9e9e9;
+  border-radius: 10px;
+}
+
+.location_input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0, 0, 0, 0.4);
+  opacity: 1; /* Firefox */
 }
