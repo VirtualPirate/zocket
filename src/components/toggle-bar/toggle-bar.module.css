@@ -41,15 +41,38 @@
   color: white;
 }
 
+.bar_state_false::before {
+  background-color: #dadee3 !important;
+}
+
+.bar_state_false > div::before {
+  background-color: #dadee3;
+}
+
 .bar_state::before {
   position: absolute;
   content: "";
 
-  width: 5px;
-  height: 2px;
+  width: 8px;
+  height: 1px;
   background-color: blue;
   top: 50%;
   left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.bar_state_true > div::after {
+  position: absolute;
+  content: "";
+
+  width: 1px;
+  height: 8px;
+  background-color: blue;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 600px) {
